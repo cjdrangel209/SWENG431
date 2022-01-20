@@ -10,7 +10,7 @@
 public class NewtonRaphson {
     int iteration = 0;
     
-    public double function(double x_0){
+    private double function(double x_0){
         double val;
         
         val = 9*Math.pow(x_0, 6) - 7*Math.pow(x_0, 5) + 0*Math.pow(x_0, 4) - 
@@ -19,7 +19,7 @@ public class NewtonRaphson {
         return val;
     }
     
-    public double derivedFunction(double x_0){
+    private double derivedFunction(double x_0){
         double val;
         
         val = 54*Math.pow(x_0, 5) - 35*Math.pow(x_0, 4) + 0*Math.pow(x_0, 3) -
