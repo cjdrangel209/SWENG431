@@ -4,7 +4,6 @@
  * @author Cory Drangel
  */
 public class NewtonRaphson {
-    int iteration = 0;
     
     private double function(double x_0){
         double val;
