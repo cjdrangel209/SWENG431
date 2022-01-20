@@ -13,7 +13,8 @@ public class Main {
         double compareValue = 0.00001;
         boolean done = false;
         
-        x_0 = rand.nextInt();
+        x_0 = rand.nextInt(500);
+        System.out.println("Initial guess is: " + x_0);
         
         do{
            iteration++;
@@ -22,6 +23,7 @@ public class Main {
            if(Math.abs(x_1-x_0) < compareValue){
                done = true;
                System.out.println("Root is: " + x_1);
+               System.out.println("Took " + iteration + " iterations.");
            }
            else{
                if(iteration > 2000){
