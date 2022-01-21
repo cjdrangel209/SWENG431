@@ -7,7 +7,7 @@ import java.util.ArrayList;
  **/
 public class MyProg {
     public static void main(String[] args){
-        MyArrayList<Student> mal = new MyArrayList();
+        MyArrayList<Student> mal = new MyArrayList<>();
         mal.insertFirst(new Student(1, "John"));
         mal.insertFirst(new Student(2, "Mary"));
         mal.insertLast(new Student(3, "Mike"));

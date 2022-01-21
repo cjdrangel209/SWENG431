@@ -7,4 +7,11 @@ package Part2;
  */
 public class Student {
     //code
+    public int idNum;
+    public String name;
+    
+    public Student(int i, String n){
+        idNum = i;
+        name = n;
+    }
 }
