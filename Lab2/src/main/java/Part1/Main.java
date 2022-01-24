@@ -15,7 +15,7 @@ public class Main {
         double compareValue = 0.00001;
         boolean done = false;
         
-        x_0 = rand.nextInt(500);
+        x_0 = rand.nextInt(100);
         System.out.println("Initial guess is: " + x_0);
         
         do{

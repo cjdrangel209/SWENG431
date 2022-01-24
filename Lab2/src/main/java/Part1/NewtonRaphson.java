@@ -11,7 +11,7 @@ public class NewtonRaphson {
         double val;
         
         val = 9*Math.pow(x_0, 6) - 7*Math.pow(x_0, 5) + 0*Math.pow(x_0, 4) - 
-                8*Math.pow(x_0, 3) + 7*Math.pow(x_0, 2) - 2*x_0 + 3;
+                8*Math.pow(x_0, 3) + 7*Math.pow(x_0, 2) - 6*x_0 + 3;
         
         return val;
     }
@@ -20,7 +20,7 @@ public class NewtonRaphson {
         double val;
         
         val = 54*Math.pow(x_0, 5) - 35*Math.pow(x_0, 4) + 0*Math.pow(x_0, 3) -
-                24*Math.pow(x_0, 2) + 14*x_0 - 2;
+                24*Math.pow(x_0, 2) + 14*x_0 - 6;
         
         return val;
     }
