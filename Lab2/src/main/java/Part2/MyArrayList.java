@@ -53,7 +53,7 @@ public class MyArrayList<E> extends ArrayList<E> {
         assert al.size() <= no  : "The size of the MyArrayList object is > " + no;
 
         //code
-        al.add(al.size() - 1, e);
+        al.add(al.size(), e);
 
         //assert postcondition
         assert al != null                   : "The MyArrayList object == null.";

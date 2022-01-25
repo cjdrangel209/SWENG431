@@ -14,4 +14,9 @@ public class Student {
         idNum = i;
         name = n;
     }
+    
+    @Override 
+    public String toString(){
+        return idNum + ", " + name;
+    }    
 }
