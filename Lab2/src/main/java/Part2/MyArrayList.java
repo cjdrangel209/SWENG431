@@ -16,8 +16,6 @@ public class MyArrayList<E> extends ArrayList<E> {
     
     public MyArrayList() {
         //assert postcondition
-
-        // NOTE: These are always true -- should we include them anyway??
         assert al != null       : "The MyArrayList object == null.";
         assert al.size() == 0   : "The size of the MyArrayList object == 0";
     }
