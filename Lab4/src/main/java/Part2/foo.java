@@ -12,14 +12,19 @@ public class foo {
     public String foo(int a, int b, int c){
         String triangleType;
         
-        if(a == b && b == c){
-            triangleType = "equilateral";
+        if (a >= 1 && a <= 100 && b >= 50 && b <= 150 && c >= 100 && c <= 200){
+            if(a == b && b == c){
+                triangleType = "equilateral";
+            }
+            else if((a == b && b != c) || (a == c && c != b) || (b == c && c != a)){
+                triangleType = "isosceles";
+            }
+            else{
+                triangleType = "scalene";
+            }
         }
-        else if((a == b && b != c) || (a == c && c != b) || (b == c && c != a)){
-            triangleType = "isosceles";
-        }
-        else{
-            triangleType = "scalene";
+        else {
+            triangleType = "error";
         }
         
         return triangleType;

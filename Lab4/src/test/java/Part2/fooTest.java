@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Cory
+ * @author Cory Drangel
  */
 public class fooTest {
     
@@ -35,7 +35,7 @@ public class fooTest {
     @org.junit.After
     public void tearDown() throws Exception {
     }
-    
+ /*   
     @BeforeClass
     public static void setUpClass() {
     }
@@ -51,7 +51,7 @@ public class fooTest {
     @After
     public void tearDown() {
     }
-
+*/
     /**
      * Test of foo method, of class foo.
      */
