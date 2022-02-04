@@ -8,7 +8,7 @@ package Part2;
  *
  * @author Cory Drangel
  */
-public class foo {
+public class Foo {
     public String foo(int a, int b, int c){
         String triangleType;
         
