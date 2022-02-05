@@ -6,6 +6,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ *
+ * @author Cory Drangel
+ */
+
 class FooTest {
     @ParameterizedTest(name = "a: {0} b: {1} c: {2} -> {3}")
     @CsvSource({
