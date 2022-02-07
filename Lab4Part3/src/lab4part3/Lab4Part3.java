@@ -1,12 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package lab4part3;
+
+import gui.MyGUI;
+import java.awt.AWTEvent;
+import java.awt.Toolkit;
+import java.awt.event.AWTEventListener;
 
 /**
  *
- * @author Cory
+ * @author Cory Drangel
  */
 public class Lab4Part3 {
 
@@ -15,6 +17,12 @@ public class Lab4Part3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Toolkit tk = Toolkit.getDefaultToolkit();
+        MyAWTEventListener listener = new MyAWTEventListener();
+        tk.addAWTEventListener(listener, AWTEvent.MOUSE_EVENT_MASK);
+        MyGUI gui = new MyGUI();
+        gui.setSize(500, 400);
+        gui.setVisible(true);
     }
     
 }
